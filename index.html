@@ -14,22 +14,12 @@
 
 <body>
         <h1>Hero versus Villain</h1>
-        <div class=container>
-                <div class="card border-primary mb-3" style="max-width: 18rem;">
-                <div class="card-header">Black Panther</div>
-                <div id="heroName"></div>
-                <div id="heroHealth"></div>
-                <div id="heroWeapon"></div>
-                <img src="image/black-panther-hero.jpg"> 
-                <p><button id="heroButton">Hero Attack</button></p>
-        </div>
-        <div class=container>
-                <div id="villainName"></div>
-                <div id="villainHealth"></div>
-                <div id="villianWeapon"></div>
-                <img src="image/bantam-3.jpg"> 
-                <p><button id="villainButton">Villain Attack</button></p>
-         </div>       
+        <p class="d-inline mx-3">Click "Start Game"!!</p>
+        <button class="btn btn-light" id="playBtn">Start Game</button>
+        <div class="characters mx-auto my-5 d-flex col-lg-6 col-sm-2">
+            <div id="heroName" class="text-center"></div>
+            <div id="villainName" class="text-center"></div>
+         </div>   
 
     <script defer src="script.js"></script>
 </body>

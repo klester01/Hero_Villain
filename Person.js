@@ -13,6 +13,6 @@ class Person {//declaring a class
     //attack method
     attack(person) {
 
-        person.health = person.health - this.weapon
+        person.health = person.health - this.weapon.damage
     }
 }
